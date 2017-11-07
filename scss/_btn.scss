@@ -1,0 +1,36 @@
+.btn{
+	padding: 0.5rem 0.9rem;
+	border-radius: 0.2rem;
+	font-family: inherit;
+	text-decoration: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	border: 2px solid transparent;
+	display: inline-block;
+	
+	transition: 1s ease;
+
+	&:active{
+		transform: scale(0.9);
+	}
+}
+
+.btn-primary{
+	background: rgba( 254, 35, 35, 0.6 );
+	color: #d1d1d1;
+	font-weight: bold;
+}
+
+.btn-rounded{
+	border-radius: 0.7em;
+}
+
+.btn-right{
+	float:right;
+	&:after{clear: both;}
+}
+
+.btn-large{
+	font-size: 1.4em;
+}
